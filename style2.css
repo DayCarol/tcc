@@ -1,0 +1,114 @@
+body{
+	font-family: Poppins, sans-serif;
+	background: linear-gradient(88deg, #ffffff 1%, #ffffff 99%);
+	color: #000;
+	font-weight: 500;
+	display: relative;
+	min-height: 100vh;
+	background-image: url(cadastro.png);
+
+}
+h1{
+	font-family: Poppins, sans-serif;
+	padding-top: 2cm;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+
+main{
+	width:50vw;
+	display:fixed;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Times New Roman;
+}
+
+main h1{
+	color: #000;
+	font-size:3rem;
+	margin-bottom:3rem;
+	text-align: center;
+	font-family: Times New Roman;
+}
+main .alternative {
+    margin-top: 1rem;
+}
+
+main .alternative span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+main .alternative span::before, main .alternative span::after {
+    position: fixed;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+main .alternative span::after {
+    left: 50px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #ffffff;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(fff, 000, 000);
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+main form input type:submit  {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #000000;
+    color: black;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input type:submit a:hover {
+	display: block;
+    background-color: #000000;
+}
+
+
+ 
+
+	
